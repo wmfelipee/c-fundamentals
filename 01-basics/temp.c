@@ -10,8 +10,8 @@ int main(void)
     step = 20;    /* step size  */
 
     fahr = lower;
+    float celsius;
     while (fahr  <= upper) {
-        float celsius;
         celsius = (5.0/9.0) * (fahr - 32);
         printf("%d\t%.1f\n", fahr, celsius);
         fahr = fahr + step;;
